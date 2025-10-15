@@ -108,7 +108,7 @@ if __name__ == "__main__":
     model.load_state_dict(torch.load(test_model_path))
     model.to(device)
 
-    inFolder = "../coordinator/predictions/"
+    inFolder = "../coordinator_identifier/predictions/"
     PMIDs = ['29108061', '28341048', '24879756', '24634129', '20963633', '20373023', '20059931', '19763868', '19620661',
              '19181764', '22100596', '22436149', '22443815', '22445144', '23508028', '26440326']
 

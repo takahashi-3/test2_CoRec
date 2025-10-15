@@ -1,0 +1,9 @@
+Sentence #,Text,Tag,Offset
+Sentence: 1,No,O,"[0, 1]"
+Sentence: 1,effect,O,"[3, 8]"
+Sentence: 1,on,O,"[10, 11]"
+Sentence: 1,rebreeding,O,"[13, 22]"
+Sentence: 1,performance,O,"[24, 34]"
+Sentence: 1,was,O,"[36, 38]"
+Sentence: 1,found,O,"[40, 44]"
+Sentence: 1,.,O,"[45, 45]"

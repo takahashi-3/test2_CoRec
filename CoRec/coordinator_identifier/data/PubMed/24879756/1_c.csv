@@ -1,0 +1,12 @@
+Sentence #,Text,Tag,Offset
+Sentence: 1,Merino,O,"[0, 5]"
+Sentence: 1,sheep,O,"[7, 11]"
+Sentence: 1,in,O,"[13, 14]"
+Sentence: 1,Australia,O,"[16, 24]"
+Sentence: 1,experience,O,"[26, 35]"
+Sentence: 1,periods,O,"[37, 43]"
+Sentence: 1,of,O,"[45, 46]"
+Sentence: 1,variable,O,"[48, 55]"
+Sentence: 1,feed,O,"[57, 60]"
+Sentence: 1,supply,O,"[62, 67]"
+Sentence: 1,.,O,"[68, 68]"

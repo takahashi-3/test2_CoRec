@@ -1,0 +1,11 @@
+Sentence #,Text,Tag,Offset
+Sentence: 1,Heritability,O,"[0, 11]"
+Sentence: 1,estimates,O,"[13, 21]"
+Sentence: 1,for,O,"[23, 25]"
+Sentence: 1,RFI,O,"[27, 29]"
+Sentence: 1,and,O,"[31, 33]"
+Sentence: 1,SRFI,O,"[35, 38]"
+Sentence: 1,were,O,"[40, 43]"
+Sentence: 1,both,O,"[45, 48]"
+Sentence: 1,1111,O,"[50, 53]"
+Sentence: 1,.,O,"[54, 54]"

@@ -1,0 +1,13 @@
+Sentence #,Text,Tag,Offset
+Sentence: 1,Data,O,"[0, 3]"
+Sentence: 1,were,O,"[5, 8]"
+Sentence: 1,analysed,O,"[10, 17]"
+Sentence: 1,with,O,"[19, 22]"
+Sentence: 1,a,O,"[24, 24]"
+Sentence: 1,multi-trait,O,"[26, 36]"
+Sentence: 1,animal,O,"[38, 43]"
+Sentence: 1,model,O,"[45, 49]"
+Sentence: 1,using,O,"[51, 55]"
+Sentence: 1,AI-REML,O,"[57, 63]"
+Sentence: 1,methodology,O,"[65, 75]"
+Sentence: 1,.,O,"[76, 76]"

@@ -1,0 +1,7 @@
+Sentence #,Text,Tag,Offset
+Sentence: 1,The,O,"[0, 2]"
+Sentence: 1,heritability,O,"[4, 15]"
+Sentence: 1,estimates,O,"[17, 25]"
+Sentence: 1,(,O,"[27, 27]"
+Sentence: 1,s.e,O,"[28, 30]"
+Sentence: 1,.,O,"[31, 31]"

@@ -1,0 +1,13 @@
+Sentence #,Text,Tag,Offset
+Sentence: 1,Four,O,"[0, 3]"
+Sentence: 1,different,O,"[5, 13]"
+Sentence: 1,causes,O,"[15, 20]"
+Sentence: 1,of,O,"[22, 23]"
+Sentence: 1,piglet,O,"[25, 30]"
+Sentence: 1,losses,O,"[32, 37]"
+Sentence: 1,(,O,"[39, 39]"
+Sentence: 1,LOSS,O,"[40, 43]"
+Sentence: 1,),O,"[44, 44]"
+Sentence: 1,were,O,"[46, 49]"
+Sentence: 1,evaluated,O,"[51, 59]"
+Sentence: 1,.,O,"[60, 60]"

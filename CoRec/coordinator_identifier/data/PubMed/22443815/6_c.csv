@@ -1,0 +1,9 @@
+Sentence #,Text,Tag,Offset
+Sentence: 1,Additional,O,"[0, 9]"
+Sentence: 1,analysed,O,"[11, 18]"
+Sentence: 1,traits,O,"[20, 25]"
+Sentence: 1,were,O,"[27, 30]"
+Sentence: 1,underweight,O,"[32, 42]"
+Sentence: 1,and,O,"[44, 46]"
+Sentence: 1,runting,O,"[48, 54]"
+Sentence: 1,.,O,"[55, 55]"

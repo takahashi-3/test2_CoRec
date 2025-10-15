@@ -1,0 +1,9 @@
+Sentence #,Text,Tag,Offset
+Sentence: 1,Phenotypic,O,"[0, 9]"
+Sentence: 1,correlations,O,"[11, 22]"
+Sentence: 1,ranged,O,"[24, 29]"
+Sentence: 1,from,O,"[31, 34]"
+Sentence: 1,1111,O,"[36, 39]"
+Sentence: 1,to,O,"[41, 42]"
+Sentence: 1,1111,O,"[44, 47]"
+Sentence: 1,.,O,"[48, 48]"

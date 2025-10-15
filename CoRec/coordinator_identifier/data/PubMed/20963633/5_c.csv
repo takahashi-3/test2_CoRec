@@ -1,0 +1,13 @@
+Sentence #,Text,Tag,Offset
+Sentence: 1,Over,O,"[0, 3]"
+Sentence: 1,the,O,"[5, 7]"
+Sentence: 1,years,O,"[9, 13]"
+Sentence: 1,",",O,"[14, 14]"
+Sentence: 1,prolificacy,O,"[16, 26]"
+Sentence: 1,in,O,"[28, 29]"
+Sentence: 1,the,O,"[31, 33]"
+Sentence: 1,flock,O,"[35, 39]"
+Sentence: 1,has,O,"[41, 43]"
+Sentence: 1,increased,O,"[45, 53]"
+Sentence: 1,significantly,O,"[55, 67]"
+Sentence: 1,.,O,"[68, 68]"

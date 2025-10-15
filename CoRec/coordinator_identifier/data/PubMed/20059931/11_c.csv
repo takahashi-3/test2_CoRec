@@ -1,0 +1,13 @@
+Sentence #,Text,Tag,Offset
+Sentence: 1,None,O,"[0, 3]"
+Sentence: 1,of,O,"[5, 6]"
+Sentence: 1,the,O,"[8, 10]"
+Sentence: 1,studied,O,"[12, 18]"
+Sentence: 1,ratios,O,"[20, 25]"
+Sentence: 1,of,O,"[27, 28]"
+Sentence: 1,FA,O,"[30, 31]"
+Sentence: 1,showed,O,"[33, 38]"
+Sentence: 1,additive,O,"[40, 47]"
+Sentence: 1,genetic,O,"[49, 55]"
+Sentence: 1,variation,O,"[57, 65]"
+Sentence: 1,.,O,"[66, 66]"

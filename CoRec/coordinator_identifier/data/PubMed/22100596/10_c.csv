@@ -1,0 +1,13 @@
+Sentence #,Text,Tag,Offset
+Sentence: 1,The,O,"[0, 2]"
+Sentence: 1,SRFI,O,"[4, 7]"
+Sentence: 1,represented,O,"[9, 19]"
+Sentence: 1,11,O,"[21, 22]"
+Sentence: 1,%,O,"[23, 23]"
+Sentence: 1,of,O,"[25, 26]"
+Sentence: 1,the,O,"[28, 30]"
+Sentence: 1,phenotypic,O,"[32, 41]"
+Sentence: 1,variability,O,"[43, 53]"
+Sentence: 1,of,O,"[55, 56]"
+Sentence: 1,SDFI,O,"[58, 61]"
+Sentence: 1,.,O,"[62, 62]"

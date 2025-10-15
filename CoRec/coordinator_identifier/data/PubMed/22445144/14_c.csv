@@ -1,0 +1,12 @@
+Sentence #,Text,Tag,Offset
+Sentence: 1,For,O,"[0, 2]"
+Sentence: 1,Landrace,O,"[4, 11]"
+Sentence: 1,",",O,"[12, 12]"
+Sentence: 1,this,O,"[14, 17]"
+Sentence: 1,correlation,O,"[19, 29]"
+Sentence: 1,was,O,"[31, 33]"
+Sentence: 1,negative,O,"[35, 42]"
+Sentence: 1,(,O,"[44, 44]"
+Sentence: 1,-1111,O,"[45, 49]"
+Sentence: 1,),O,"[50, 50]"
+Sentence: 1,.,O,"[51, 51]"

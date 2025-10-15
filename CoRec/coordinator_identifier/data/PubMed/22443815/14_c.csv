@@ -1,0 +1,13 @@
+Sentence #,Text,Tag,Offset
+Sentence: 1,Of,O,"[0, 1]"
+Sentence: 1,all,O,"[3, 5]"
+Sentence: 1,piglets,O,"[7, 13]"
+Sentence: 1,born,O,"[15, 18]"
+Sentence: 1,alive,O,"[20, 24]"
+Sentence: 1,1111,O,"[26, 29]"
+Sentence: 1,%,O,"[30, 30]"
+Sentence: 1,survive,O,"[32, 38]"
+Sentence: 1,the,O,"[40, 42]"
+Sentence: 1,lactation,O,"[44, 52]"
+Sentence: 1,period,O,"[54, 59]"
+Sentence: 1,.,O,"[60, 60]"

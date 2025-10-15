@@ -1,0 +1,9 @@
+Sentence #,Text,Tag,Offset
+Sentence: 1,The,O,"[0, 2]"
+Sentence: 1,BW,O,"[4, 5]"
+Sentence: 1,measurements,O,"[7, 18]"
+Sentence: 1,were,O,"[20, 23]"
+Sentence: 1,for,O,"[25, 27]"
+Sentence: 1,1,O,"[29, 29]"
+Sentence: 1,periods,O,"[31, 37]"
+Sentence: 1,.,O,"[38, 38]"

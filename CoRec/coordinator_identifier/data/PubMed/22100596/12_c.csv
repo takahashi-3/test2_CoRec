@@ -1,0 +1,11 @@
+Sentence #,Text,Tag,Offset
+Sentence: 1,The,O,"[0, 2]"
+Sentence: 1,genetic,O,"[4, 10]"
+Sentence: 1,correlation,O,"[12, 22]"
+Sentence: 1,between,O,"[24, 30]"
+Sentence: 1,RFI,O,"[32, 34]"
+Sentence: 1,and,O,"[36, 38]"
+Sentence: 1,SRFI,O,"[40, 43]"
+Sentence: 1,was,O,"[45, 47]"
+Sentence: 1,11111111111,O,"[49, 59]"
+Sentence: 1,.,O,"[60, 60]"

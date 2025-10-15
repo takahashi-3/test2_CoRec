@@ -1,0 +1,13 @@
+Sentence #,Text,Tag,Offset
+Sentence: 1,These,O,"[0, 4]"
+Sentence: 1,results,O,"[6, 12]"
+Sentence: 1,showed,O,"[14, 19]"
+Sentence: 1,the,O,"[21, 23]"
+Sentence: 1,difficulty,O,"[25, 34]"
+Sentence: 1,in,O,"[36, 37]"
+Sentence: 1,jointly,O,"[39, 45]"
+Sentence: 1,improving,O,"[47, 55]"
+Sentence: 1,LMP,O,"[57, 59]"
+Sentence: 1,and,O,"[61, 63]"
+Sentence: 1,ADG2,O,"[65, 68]"
+Sentence: 1,.,O,"[69, 69]"

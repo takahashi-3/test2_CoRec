@@ -1,14 +1,17 @@
 # test2_CoRec
-## 入力データ成形の流れ（デフォルトのDemoであるPubMedにはアノテーション）
-1. Penn Tree の生データ?(.mrg)を "CoRec/data/data_generator.py" に入力
-   - precision などの算出における正解ラベルをここで付与する
-   - ここで、Tag を付与する(並列関係を表すラベル)
-2. その後、"CoRec/data/add_features.py" を実行すると, 以降の "prediction_PubMed.py" 用の入力データが成形される
-   - ここで、c-Tag を付与する(coordinator は "c-C"が付与)
+## 入力データ成形の流れ（デフォルトのDemoであるPubMedには正解データのアノテーションなし）
+- Penn Tree の生データ?(.mrg)を "CoRec/data/data_generator.py" に入力
+   - precision などの算出における正解ラベルをここで付与する(形式は "CoRec/coordinator_identifier/data/PubMed/XX/YY_c.csv" と同様)
+     - Tag: coordinationを表すラベル(coordination である単語には "C" が割り当てられる)
 
 ## coordinatorの特定(CoRec/coordinator_identifier/src/predict_PubMed.py)
-- 入力されたテキスト(形態素解析済み)について、各単語が coordinator(and, betweenなど)であるか推定
-- coordinator である単語は、出力の c-Tag に "c-C" が付与され、入力の同単語に付与されている c-Tag と比較を行い、precision 等が計算される
+- 入力csv について、各単語が coordinator(and, betweenなど)であるか推定
+- coordinator である単語は、出力の c-Tag に "c-C" が付与され、入力の同単語に付与されている Tag と比較を行い、precision 等が計算される
+
+## 並列関係の特定における正解ラベルの付与
+- "CoRec/coordinator_identifier/prediction/XX/YY_c_pred.csv" にある上記の出力ファイル群は、並列関係の特定における正解ラベル "Tag" が付与されていない
+- ~"CoRec/data/add_features.py" を実行すると, 上記の出力ファイルに正解ラベル "Tag" が付与される?(検証中)~
+- 新規に作成する必要がありそう
 
 ## 並列関係の特定(CoRec/src/predict_PubMed.py)
 - "coordinatorの特定" の出力にある c-Tag をもとにして、Tag を推定

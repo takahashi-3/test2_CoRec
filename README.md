@@ -1,8 +1,9 @@
 # test2_CoRec
 ## 入力データ成形の流れ（デフォルトのDemoであるPubMedには正解データのアノテーションなし）
-- Penn Tree の生データ?(.mrg)を "CoRec/data/data_generator.py" に入力
-   - precision などの算出における正解ラベルをここで付与する(形式は "CoRec/coordinator_identifier/data/PubMed/XX/YY_c.csv" と同様)
-     - Tag: coordinationを表すラベル(coordination である単語には "C" が割り当てられる)
+- __並列関係の出力のみ欲しい(precisionの自動評価などをしない)ならば、以下の作業は不要(入力を "CoRec/coordinator_identifier/data/PubMed/XX/YY_c.csv" と同様の形式にする)__
+   - Penn Tree の生データ?(.mrg)を "CoRec/data/data_generator.py" に入力
+      - precision などの算出における正解ラベルをここで付与する(形式は "CoRec/coordinator_identifier/data/PubMed/XX/YY_c.csv" と同様)
+      - Tag: coordinationを表すラベル(coordination である単語には "C" が割り当てられる)
 
 ## coordinatorの特定(CoRec/coordinator_identifier/src/predict_PubMed.py)
 - 入力csv について、各単語が coordinator(and, betweenなど)であるか推定

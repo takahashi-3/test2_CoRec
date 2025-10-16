@@ -1,6 +1,6 @@
 # test2_CoRec
 ## 入力データ成形の流れ
-1. Penn Treeの生データ?(.txt)を "CoRec/data/data_generator.py" に入力
+1. Penn Treeの生データ?(.mrg)を "CoRec/data/data_generator.py" に入力
 2. その後、"CoRec/data/add_features.py" を実行すると, 以降の "prediction_PubMed.py" 用の入力データが成形される 
 
 ## 注意点

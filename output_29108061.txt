@@ -1,116 +1,178 @@
-# Worning省略
-
-
 29108061
-in_sentences_length(29108061): 11
+
+
 1
-(predicted)
+texts: [list(['Genetic', 'correlations', 'between', '11', 'wool', 'production', 'and', 'quality', 'traits', 'and', '11', 'meat', 'quality', 'and', 'nutritional', 'value', 'traits', 'were', 'estimated', 'for', 'Merino', 'sheep', 'from', 'an', 'Information', 'Nucleus', '(', 'IN', ')', '.'])]
+tags: [list([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])]
+
+(predicted) 
  tokens: ['genetic', 'correlations', 'between', '11', 'wool', 'production', 'and', 'quality', 'traits', 'and', '11', 'meat', 'quality', 'and', 'nutritional', 'value', 'traits', 'were', 'estimated', 'for', 'merino', 'sheep', 'from', 'an', 'information', 'nucleus', '(', 'in', ')', '.']
  labels: ['O', 'O', 'C', 'O', 'O', 'O', 'C', 'O', 'O', 'C', 'O', 'O', 'O', 'C', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+ target_labels: ['C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C']
 precision:
-1.0
+0.13333333333333333
 recall:
-1.0
+0.13333333333333333
 f1 score:
-1.0
+0.13333333333333333
+
+
 2
-(predicted)
+texts: [list(['Genetic', 'correlations', 'among', 'the', 'meat', 'quality', 'and', 'nutritional', 'value', 'traits', 'are', 'also', 'reported', '.'])]
+tags: [list([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])]
+
+(predicted) 
  tokens: ['genetic', 'correlations', 'among', 'the', 'meat', 'quality', 'and', 'nutritional', 'value', 'traits', 'are', 'also', 'reported', '.']
  labels: ['O', 'O', 'O', 'O', 'O', 'O', 'C', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+ target_labels: ['C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C']
 precision:
 0.07142857142857142
 recall:
 0.07142857142857142
 f1 score:
 0.07142857142857142
+
+
 3
-(predicted)
+texts: [list(['The', 'IN', 'comprised', '1', 'flocks', 'linked', 'genetically', 'and', 'managed', 'across', 'a', 'range', 'of', 'sheep', 'production', 'environments', 'in', 'Australia', '.'])]
+tags: [list([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])]
+
+(predicted) 
  tokens: ['the', 'in', 'comprised', '1', 'flocks', 'linked', 'genetically', 'and', 'managed', 'across', 'a', 'range', 'of', 'sheep', 'production', 'environments', 'in', 'australia', '.']
  labels: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'C', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+ target_labels: ['C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C']
 precision:
 0.05263157894736842
 recall:
 0.05263157894736842
 f1 score:
 0.05263157894736842
+
+
 4
-(predicted)
+texts: [list(['The', 'wool', 'traits', 'included', 'over', '11111', 'yearling', 'and', '11111', 'adult', 'records', 'for', 'fleece', 'weight', ',', 'fiber', 'diameter', ',', 'staple', 'length', ',', 'staple', 'strength', ',', 'fiber', 'diameter', 'variation', ',', 'scoured', 'wool', 'color', ',', 'and', 'visual', 'scores', 'for', 'breech', 'and', 'body', 'wrinkle', '.'])]
+tags: [list([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])]
+
+(predicted) 
  tokens: ['the', 'wool', 'traits', 'included', 'over', '11111', 'yearling', 'and', '11111', 'adult', 'records', 'for', 'fleece', 'weight', ',', 'fiber', 'diameter', ',', 'staple', 'length', ',', 'staple', 'strength', ',', 'fiber', 'diameter', 'variation', ',', 'scoured', 'wool', 'color', ',', 'and', 'visual', 'scores', 'for', 'breech', 'and', 'body', 'wrinkle', '.']
  labels: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'C', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'C', 'O', 'O', 'O', 'O', 'C', 'O', 'O', 'O']
+ target_labels: ['C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C']
 precision:
 0.07317073170731707
 recall:
 0.07317073170731707
 f1 score:
 0.07317073170731707
+
+
 5
-(predicted)
+texts: [list(['The', 'meat', 'quality', 'traits', 'were', 'measured', 'on', 'samples', 'from', 'the', 'and', 'included', 'over', '11111', 'records', 'from', 'progeny', 'of', 'over', '111', 'sires', 'for', 'intramuscular', 'fat', '(', 'IMF', ')', ',', 'shear', 'force', 'of', 'meat', 'aged', 'for', '1', 'd', '(', 'SF5', ')', ',', '11', 'h', 'postmortem', 'pH', '(', 'pHLL', ';', 'also', 'measured', 'in', 'the', ',', 'pHST', ')', ',', 'fresh', 'and', 'retail', 'meat', 'color', 'and', 'meat', 'nutritional', 'value', 'traits', 'such', 'as', 'iron', 'and', 'zinc', 'levels', ',', 'and', 'long-chain', 'omega11', 'and', 'omega11', 'polyunsaturated', 'fatty', 'acid', 'levels', '.'])]
+tags: [list([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])]
+
+(predicted) 
  tokens: ['the', 'meat', 'quality', 'traits', 'were', 'measured', 'on', 'samples', 'from', 'the', 'and', 'included', 'over', '11111', 'records', 'from', 'progeny', 'of', 'over', '111', 'sires', 'for', 'intramuscular', 'fat', '(', 'imf', ')', ',', 'shear', 'force', 'of', 'meat', 'aged', 'for', '1', 'd', '(', 'sf5', ')', ',', '11', 'h', 'postmortem', 'ph', '(', 'phll', ';', 'also', 'measured', 'in', 'the', ',', 'phst', ')', ',', 'fresh', 'and', 'retail', 'meat', 'color', 'and', 'meat', 'nutritional', 'value', 'traits', 'such', 'as', 'iron', 'and', 'zinc', 'levels', ',', 'and', 'long', '-', 'chain', 'omega11', 'and', 'omega11', 'polyunsaturated', 'fatty', 'acid', 'levels', '.']
  labels: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'C', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'C', 'O', 'O', 'O', 'C', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'C', 'O', 'O', 'O', 'C', 'O', 'O', 'O', 'O', 'C', 'O', 'O', 'O', 'O', 'O', 'O']
+ target_labels: ['C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C']
 precision:
 0.07142857142857142
 recall:
 0.07142857142857142
 f1 score:
 0.07142857142857142
+
+
 6
-(predicted)
+texts: [list(['Estimated', 'heritabilities', 'for', 'IMF', ',', 'SF5', ',', 'pHLL', ',', 'pHST', ',', 'retail', 'meat', 'color', 'lightness', '(', ')', ',', 'myoglobin', ',', 'iron', ',', 'zinc', 'and', 'across', 'the', 'range', 'of', 'long-chain', 'fatty', 'acids', 'were', '11111111111', ',', '11111111111', ',', '11111111111', ',', '11111111111', ',', '11111111111', ',', '11111111111', ',', '11111111111', ',', '11111111111', ',', 'and', 'range', 'of', '1111', '(', 'eicosapentaenoic', ',', 'docosapentaenoic', ',', 'and', 'arachidonic', 'acids', ')', 'to', '11111111111', '(', 'linoleic', 'acid', ')', ',', 'respectively', '.'])]
+tags: [list([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])]
+
+(predicted) 
  tokens: ['estimated', 'heritabilities', 'for', 'imf', ',', 'sf5', ',', 'phll', ',', 'phst', ',', 'retail', 'meat', 'color', 'lightness', '(', ')', ',', 'myoglobin', ',', 'iron', ',', 'zinc', 'and', 'across', 'the', 'range', 'of', 'long', '-', 'chain', 'fatty', 'acids', 'were', '11111111111', ',', '11111111111', ',', '11111111111', ',', '11111111111', ',', '11111111111', ',', '11111111111', ',', '11111111111', ',', '11111111111', ',', 'and', 'range', 'of', '1111', '(', 'eicosapentaenoic', ',', 'docosapentaenoic', ',', 'and', 'arachidonic', 'acids', ')', 'to', '11111111111']
  labels: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'C', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'C', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'C', 'O', 'O', 'O', 'O', 'O']
-exception: list index out of range
+ target_labels: ['C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C']
+list index out of range
 precision:
 0
 recall:
 0
 f1 score:
 0
+
+
 7
-(predicted)
+texts: [list(['The', 'genetic', 'correlations', 'between', 'the', 'wool', 'production', 'and', 'meat', 'quality', 'traits', 'were', 'low', 'to', 'negligible', 'and', 'indicate', 'that', 'wool', 'breeding', 'programs', 'will', 'have', 'little', 'or', 'no', 'effect', 'on', 'meat', 'quality', '.'])]
+tags: [list([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])]
+
+(predicted) 
  tokens: ['the', 'genetic', 'correlations', 'between', 'the', 'wool', 'production', 'and', 'meat', 'quality', 'traits', 'were', 'low', 'to', 'negligible', 'and', 'indicate', 'that', 'wool', 'breeding', 'programs', 'will', 'have', 'little', 'or', 'no', 'effect', 'on', 'meat', 'quality', '.']
  labels: ['O', 'O', 'O', 'C', 'O', 'O', 'O', 'C', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'C', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'C', 'O', 'O', 'O', 'O', 'O', 'O']
+ target_labels: ['C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C']
 precision:
 0.12903225806451613
 recall:
 0.12903225806451613
 f1 score:
 0.12903225806451613
+
+
 8
-(predicted)
+texts: [list(['There', 'were', 'moderately', 'favorable', 'genetic', 'correlations', 'between', 'important', 'yearling', 'wool', 'production', 'traits', 'and', 'the', 'omega11', 'fatty', 'acids', 'that', 'were', 'reduced', 'for', 'corresponding', 'adult', 'wool', 'production', 'traits', ',', 'but', 'these', 'correlations', 'are', 'unlikely', 'to', 'be', 'important', 'in', 'wool/meat', 'breeding', 'programs', 'because', 'they', 'have', 'high', 'SE', ',', 'and', 'the', 'omega11', 'traits', 'have', 'little', 'or', 'no', 'genetic', 'variance', '.'])]
+tags: [list([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])]
+
+(predicted) 
  tokens: ['there', 'were', 'moderately', 'favorable', 'genetic', 'correlations', 'between', 'important', 'yearling', 'wool', 'production', 'traits', 'and', 'the', 'omega11', 'fatty', 'acids', 'that', 'were', 'reduced', 'for', 'corresponding', 'adult', 'wool', 'production', 'traits', ',', 'but', 'these', 'correlations', 'are', 'unlikely', 'to', 'be', 'important', 'in', 'wool', '/', 'meat', 'breeding', 'programs', 'because', 'they', 'have', 'high', 'se', ',', 'and', 'the', 'omega11', 'traits', 'have', 'little', 'or', 'no', 'genetic', 'variance', '.']
  labels: ['O', 'O', 'O', 'O', 'O', 'O', 'C', 'O', 'O', 'O', 'O', 'O', 'C', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'C', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'C', 'O', 'O', 'O', 'O', 'O', 'C', 'O', 'O', 'O', 'O']
+ target_labels: ['C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C']
 precision:
 0.08620689655172414
 recall:
 0.08620689655172414
 f1 score:
 0.08620689655172414
+
+
 9
-(predicted)
+texts: [list(['Significant', 'genetic', 'correlations', 'among', 'the', 'meat', 'quality', 'traits', 'included', 'IMF', 'with', 'SF5', '(', '-11111111111', ')', ',', 'fresh', 'meat', 'color', '*', '(', '11111111111', ')', ',', 'and', 'zinc', '(', '11111111111', ')', '.'])]
+tags: [list([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])]
+
+(predicted) 
  tokens: ['significant', 'genetic', 'correlations', 'among', 'the', 'meat', 'quality', 'traits', 'included', 'imf', 'with', 'sf5', '(', '-', '11111111111', ')', ',', 'fresh', 'meat', 'color', '*', '(', '11111111111', ')', ',', 'and', 'zinc', '(', '11111111111', ')', '.']
  labels: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'C', 'O', 'O', 'O', 'O', 'O']
+ target_labels: ['C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C']
 precision:
 0.03225806451612903
 recall:
 0.03225806451612903
 f1 score:
 0.03225806451612903
+
+
 10
-(predicted)
+texts: [list(['Selection', 'to', 'increase', 'IMF', 'will', 'improve', 'meat', 'tenderness', 'and', 'color', 'which', 'may', 'address', 'some', 'of', 'the', 'issues', 'with', 'Merino', 'meat', 'quality', '.'])]
+tags: [list([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])]
+
+(predicted) 
  tokens: ['selection', 'to', 'increase', 'imf', 'will', 'improve', 'meat', 'tenderness', 'and', 'color', 'which', 'may', 'address', 'some', 'of', 'the', 'issues', 'with', 'merino', 'meat', 'quality', '.']
  labels: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'C', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+ target_labels: ['C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C']
 precision:
 0.045454545454545456
 recall:
 0.045454545454545456
 f1 score:
 0.045454545454545456
+
+
 11
-(predicted)
+texts: [list(['These', 'estimated', 'parameters', 'allow', 'Merino', 'breeders', 'to', 'combine', 'wool', 'and', 'meat', 'objectives', 'without', 'compromising', 'meat', 'quality', '.'])]
+tags: [list([1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1])]
+
+(predicted) 
  tokens: ['these', 'estimated', 'parameters', 'allow', 'merino', 'breeders', 'to', 'combine', 'wool', 'and', 'meat', 'objectives', 'without', 'compromising', 'meat', 'quality', '.']
  labels: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'C', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+ target_labels: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'C', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
 precision:
-0.058823529411764705
+1.0
 recall:
-0.058823529411764705
+1.0
 f1 score:
-0.058823529411764705
+1.0
